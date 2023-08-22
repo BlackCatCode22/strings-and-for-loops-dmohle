@@ -17,9 +17,10 @@ public class StringsAndLoops {
         }
 
         String[] myStrArray = {"this", "that", "the other"};
+        int[] myIntegerArray = {22, 33, 12, 15, 7, 1};
 
-        for (int i = 0; i <= 2; i++) {
-            System.out.println("myStrArray[" + i + "] = " + myStrArray[i]);
+        for (int i = 0; i <= 5; i++) {
+            System.out.println("myIntegerArray[" + i + "] = " + myIntegerArray[i]);
         }
     }
 }
